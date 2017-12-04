@@ -4,6 +4,6 @@ class SessionsController < ApplicationController
   end
 
   def create
-    
+    sessions[:username] = params[:name]
   end
 end
