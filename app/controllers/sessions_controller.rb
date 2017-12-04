@@ -5,5 +5,6 @@ class SessionsController < ApplicationController
 
   def create
     sessions[:name] = params[:name]
+    redirect_to root
   end
 end
